@@ -14,7 +14,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="flex w-full flex-col">
       <header className="sticky top-0 bg-gradient-to-r from-red-400 via-white to-blue-500 flex justify-between lg:justify-center gap-10 h-16 items-center border-b px-4 md:px-">
         <div className="hidden md:block">
           <nav className="flex font-medium space-x-5 ">
@@ -29,7 +29,9 @@ export default function Header() {
                 />
               </div>
               <Link href="/" className=" hover:text-foreground">
-                <h1 className="flex capitalize text-white">akuapem north constituency</h1>
+                <h1 className="flex capitalize text-white">
+                  akuapem north constituency
+                </h1>
               </Link>
             </div>
 
@@ -45,7 +47,7 @@ export default function Header() {
 
               <li className="">
                 <Link
-                  href="#"
+                  href="/about"
                   className="text-muted-foreground capitalize hover:text-foreground"
                 >
                   about
@@ -54,7 +56,7 @@ export default function Header() {
 
               <li className="">
                 <Link
-                  href="#"
+                  href="/news/events"
                   className="text-muted-foreground capitalize hover:text-foreground"
                 >
                   news & events
@@ -63,7 +65,7 @@ export default function Header() {
 
               <li className="">
                 <Link
-                  href="#"
+                  href="/projects"
                   className="text-muted-foreground capitalize hover:text-foreground"
                 >
                   projects
@@ -72,7 +74,7 @@ export default function Header() {
 
               <li className="">
                 <Link
-                  href="#"
+                  href="/community-resources"
                   className="text-muted-foreground capitalize hover:text-foreground"
                 >
                   community resources
@@ -81,14 +83,14 @@ export default function Header() {
 
               <li className="">
                 <Link
-                  href="#"
+                  href="/contact-us"
                   className="text-muted-foreground capitalize hover:text-foreground"
                 >
                   contact us
                 </Link>
               </li>
 
-              <li className="">
+              <li className="/constituent-service">
                 <Link
                   href="#"
                   className="text-muted-foreground capitalize hover:text-foreground"
@@ -135,7 +137,7 @@ export default function Header() {
 
                   <li className="">
                     <Link
-                      href="#"
+                      href="about"
                       className="text-blue-600 capitalize hover:text-foreground"
                     >
                       about
@@ -144,7 +146,7 @@ export default function Header() {
 
                   <li className="">
                     <Link
-                      href="#"
+                      href="/news/events"
                       className="text-blue-600 capitalize hover:text-foreground"
                     >
                       news & events
@@ -153,7 +155,7 @@ export default function Header() {
 
                   <li className="">
                     <Link
-                      href="#"
+                      href="/projects"
                       className="text-blue-600 capitalize hover:text-foreground"
                     >
                       projects
@@ -162,7 +164,7 @@ export default function Header() {
 
                   <li className="">
                     <Link
-                      href="#"
+                      href="community-resources"
                       className="text-blue-600 capitalize hover:text-foreground"
                     >
                       community resources
@@ -171,7 +173,7 @@ export default function Header() {
 
                   <li className="">
                     <Link
-                      href="#"
+                      href="contact-us"
                       className="text-blue-600 capitalize hover:text-foreground"
                     >
                       contact us
@@ -180,7 +182,7 @@ export default function Header() {
 
                   <li className="">
                     <Link
-                      href="#"
+                      href="/constituent-service"
                       className="text-blue-600 capitalize hover:text-foreground"
                     >
                       constituent services
