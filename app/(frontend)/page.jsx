@@ -1,3 +1,4 @@
+import Donation from "@/components/Donation/Donation";
 import Hero from "@/components/Hero/Hero";
 import Together from "@/components/Together/Together";
 
@@ -10,11 +11,13 @@ export default function Home() {
           <Hero />
         </section>
 
-
         {/* Together */}
         <section>
           <Together />
-          </section>
+        </section>
+
+        {/* Donation */}
+        <Donation />
       </section>
     </main>
   );
