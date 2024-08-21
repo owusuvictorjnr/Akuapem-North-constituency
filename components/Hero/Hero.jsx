@@ -11,7 +11,7 @@ const ImageListData = {
     {
       image: "/assets/imgs/bawu-1.jpg",
       aosDelay: "500",
-      name: "Bawumia",
+      name: "Alhaji Bawumia",
       aosData: "fade-up", // Animation for the name
       aspiring: "Aspiring President of Ghana",
     },
@@ -58,6 +58,7 @@ const Hero = ({ deviceType }) => {
         autoPlaySpeed={5000}
         keyBoardControl={true}
         transitionDuration={800}
+        removeArrowOnDeviceType={["tablet", "mobile"]}
         containerClass="carousel-container"
         className=""
       >
@@ -74,11 +75,11 @@ const Hero = ({ deviceType }) => {
             <div className="absolute inset-0 bg-black opacity-50" />
 
             {/* Foreground Content */}
-            <div className="absolute inset-0 container mx-auto px-10 grid grid-cols-2">
+            <div className="absolute inset-0 container mx-auto px-10 lg:grid lg:grid-cols-2">
               <div
                 data-aos={item.aosData}
                 data-aos-duration={item.aosDelay}
-                className="text-white place-items-center flex  text-center mb-8"
+                className="text-white lg:place-items-center flex  text-center mb-8"
               >
                 <div className="">
                   <h1 className="text-[4rem] lg:text-[7rem] font-bold flex mt-10 items-center">
@@ -90,14 +91,16 @@ const Hero = ({ deviceType }) => {
                   </p>
 
                   <div className="mt-10">
-                    <Button className='bg-rose-500 capitalize'>become a volunteer</Button>
+                    <Button className="bg-rose-500 capitalize">
+                      become a volunteer
+                    </Button>
                   </div>
                 </div>
               </div>
               <div
                 data-aos={item.aosData}
                 data-aos-duration={item.aosDelay}
-                className="flex place-items-center"
+                className="flex place-items-center items-center"
               >
                 <Image
                   src={item.image}
