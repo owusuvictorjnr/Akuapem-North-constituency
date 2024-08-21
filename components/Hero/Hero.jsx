@@ -107,7 +107,7 @@ const Hero = ({ deviceType }) => {
                   alt={item.name}
                   height={1000}
                   width={1000}
-                  className="w-full lg:w-[35rem] h-[45vh] lg:h-[70vh] mt-10 transition flex duration-500 ease-in-out"
+                  className="w-full lg:w-[35rem] h-[45vh] lg:h-[70vh] transition flex duration-500 ease-in-out"
                 />
               </div>
             </div>
