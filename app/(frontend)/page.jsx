@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero/Hero";
+import Together from "@/components/Together/Together";
 
 export default function Home() {
   return (
@@ -8,6 +9,12 @@ export default function Home() {
         <section>
           <Hero />
         </section>
+
+
+        {/* Together */}
+        <section>
+          <Together />
+          </section>
       </section>
     </main>
   );
