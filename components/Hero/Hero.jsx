@@ -100,7 +100,7 @@ const Hero = ({ deviceType }) => {
               <div
                 data-aos={item.aosData}
                 data-aos-duration={item.aosDelay}
-                className="flex place-items-center items-center"
+                className="flex place-items-center items-center mb-10"
               >
                 <Image
                   src={item.image}
