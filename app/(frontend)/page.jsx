@@ -1,6 +1,7 @@
 import Donation from "@/components/Donation/Donation";
 import Hero from "@/components/Hero/Hero";
 import Together from "@/components/Together/Together";
+import UpcomingCampaign from "@/components/UpcomingCampaign/UpcomingCampaign";
 
 export default function Home() {
   return (
@@ -17,7 +18,13 @@ export default function Home() {
         </section>
 
         {/* Donation */}
-        <Donation />
+        <section>
+          <Donation />
+        </section>
+
+        <section>
+          <UpcomingCampaign />
+        </section>
       </section>
     </main>
   );
