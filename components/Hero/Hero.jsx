@@ -75,7 +75,7 @@ const Hero = ({ deviceType }) => {
             <div className="absolute inset-0 bg-black opacity-50" />
 
             {/* Foreground Content */}
-            <div className="absolute inset-0 container mx-auto px-10 lg:grid lg:grid-cols-2">
+            <div className="absolute  inset-0 lg:container mx-auto px-10 lg:grid lg:grid-cols-2">
               <div
                 data-aos={item.aosData}
                 data-aos-duration={item.aosDelay}
@@ -100,14 +100,14 @@ const Hero = ({ deviceType }) => {
               <div
                 data-aos={item.aosData}
                 data-aos-duration={item.aosDelay}
-                className="flex place-items-center items-center mb-10"
+                className="flex place-items-center bg-red-600 w-full items-center pb-10 lg:pb-0"
               >
                 <Image
                   src={item.image}
                   alt={item.name}
                   height={1000}
                   width={1000}
-                  className="w-[35rem] h-[45vh] lg:h-[70vh] mt-10 transition flex duration-500 ease-in-out"
+                  className="w-full lg:w-[35rem] h-[45vh] lg:h-[70vh] mt-10 transition flex duration-500 ease-in-out"
                 />
               </div>
             </div>
