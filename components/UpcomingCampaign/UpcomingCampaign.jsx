@@ -10,7 +10,7 @@ const UpcomingCampaign = () => {
       <div className="container mx-auto space-y-10">
         <h1 className="text-3xl font-bold text-center">Upcoming Campaign</h1>
 
-        <p className=" text-gray-400 px-20 lg:px-[20rem]">
+        <p className=" text-gray-400 px-10 lg:px-[20rem]">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
           quaerat iusto, corporis quasi earum nobis voluptatum facere veritatis
           debitis quibusdam.
@@ -28,7 +28,7 @@ const UpcomingCampaign = () => {
               className="h-[40vh]  bg-black opacity-30 hover:opacity-70 "
             />
           </Card>
-          <div className="absolute mt-[14rem]">
+          <div className="absolute mt-[10rem]">
             <h1 className=" text-red-500 text-xl hover:hidden font-bold">
               human right conference 2024
             </h1>
@@ -55,7 +55,7 @@ const UpcomingCampaign = () => {
               className="h-[40vh]  bg-black opacity-30 hover:opacity-70 "
             />
           </Card>
-          <div className="absolute mt-[14rem]">
+          <div className="absolute mt-[10rem]">
             <h1 className=" text-red-500 text-xl hover:hidden font-bold">
               human right conference 2024
             </h1>
@@ -82,7 +82,7 @@ const UpcomingCampaign = () => {
               className="h-[40vh]  bg-black opacity-30 hover:opacity-70 "
             />
           </Card>
-          <div className="absolute mt-[14rem]">
+          <div className="absolute mt-[10rem]">
             <h1 className=" text-red-500 text-xl hover:hidden font-bold">
               human right conference 2024
             </h1>
