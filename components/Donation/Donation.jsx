@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 const Donation = () => {
   return (
     <>
-      <div className="h-[78.3vh] lg:h-[74.1vh] bg-black">
+      <div className="min-h-[95vh] lg:h-[74.1vh] bg-black">
         <div className="h-[79vh]">
           <div className=" absolute bg-black opacity-40">
             <Image
