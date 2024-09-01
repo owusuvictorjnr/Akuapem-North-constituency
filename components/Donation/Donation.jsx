@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 const Donation = () => {
   return (
     <>
-      <div className="min-h-[36rem] mb-10 bg-black">
+      <div className="min-h-[36rem] bg-black">
         <div className="">
           <div className=" absolute bg-black opacity-40">
             <Image
@@ -51,7 +51,7 @@ const Donation = () => {
                 placeholder="Donation $"
               />
             </form>
-            <div className="flex justify-center font-bold   px-10 pb-5">
+            <div className="flex justify-center font-bold   px-10 mb-5">
               <Button className="w-full lg:w-1/4 bg-rose-500 uppercase ">
                 donate now
               </Button>
