@@ -14,7 +14,7 @@ const Donation = () => {
               alt="vote"
               height={1000}
               width={1000}
-              className="lg:h-[36rem] md:h-[37rem] h-[39.5rem] w-screen"
+              className="lg:h-[36rem] md:h-[37rem] h-[38rem] w-screen"
             />
             {/* <div className="absolute inset-0 bg-black opacity-50" /> */}
           </div>
