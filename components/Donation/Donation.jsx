@@ -6,8 +6,8 @@ import { Input } from "@/components/ui/input";
 const Donation = () => {
   return (
     <>
-      <div className="min-h-[36rem] bg-black">
-        <div className="">
+      <div className="h-[78.3vh] lg:h-[74.1vh] bg-black">
+        <div className="h-[79vh]">
           <div className=" absolute bg-black opacity-40">
             <Image
               src="/assets/imgs/vote.png"
@@ -18,7 +18,7 @@ const Donation = () => {
             />
             {/* <div className="absolute inset-0 bg-black opacity-50" /> */}
           </div>
-          <div className=" relative pt-[10rem] space-y-10">
+          <div className=" relative pt-[7rem] space-y-10">
             <div className="text-white space-y-5">
               <h1 className="capitalize text-4xl text-center font-bold tracking-widest">
                 make a donation
