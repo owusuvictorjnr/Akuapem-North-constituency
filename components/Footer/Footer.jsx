@@ -18,7 +18,7 @@ export default function Footer() {
           </div>
           <div className="text-2xl capitalize">
             <h1 className="text-white">
-              instagram <span className="text-red-500">photos</span>{" "}
+              <span className="text-red-500">photos</span>{" "}
             </h1>
           </div>
         </div>
