@@ -1,5 +1,6 @@
 import Donation from "@/components/Donation/Donation";
 import Hero from "@/components/Hero/Hero";
+import Subscribe from "@/components/Subscribe/Subscribe";
 import Together from "@/components/Together/Together";
 import UpcomingCampaign from "@/components/UpcomingCampaign/UpcomingCampaign";
 
@@ -24,6 +25,10 @@ export default function Home() {
 
         <section>
           <UpcomingCampaign />
+        </section>
+
+        <section>
+          <Subscribe />
         </section>
       </section>
     </main>
