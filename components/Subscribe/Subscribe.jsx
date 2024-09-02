@@ -28,7 +28,7 @@ function Subscribe() {
             debitis repudiandae officia veniam atque ipsa?
           </p>
         </div>
-        <div className="relative px-10 flex-col items-center pt-[5rem] space-y-5">
+        <div className="relative px-10 flex-col items-center pt-[3rem] space-y-5">
           <form className="flex justify-center">
             <Input
               type="text"
