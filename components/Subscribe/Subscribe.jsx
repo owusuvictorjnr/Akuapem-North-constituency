@@ -14,7 +14,7 @@ function Subscribe() {
               alt="logo"
               height={500}
               width={500}
-              className="w-full min-h-[50vh]"
+              className="w-full h-[55vh]"
             />
           </div>
         </div>
