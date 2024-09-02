@@ -14,7 +14,7 @@ function Subscribe() {
               alt="logo"
               height={500}
               width={500}
-              className="w-full h-[50vh]"
+              className="w-full min-h-[50vh]"
             />
           </div>
         </div>
@@ -36,7 +36,7 @@ function Subscribe() {
               placeholder="Enter your email here"
             />
           </form>
-          <div className="flex justify-center font-bold   px-10 mb-5">
+          <div className="flex justify-center font-bold pb-5  px-10 mb-5">
             <Button
               type="email"
               className="w-full lg:w-1/4 bg-rose-500 uppercase "
