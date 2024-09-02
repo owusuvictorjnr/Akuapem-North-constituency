@@ -7,7 +7,7 @@ const Donation = () => {
   return (
     <>
       <div className="min-h-[95vh] lg:h-[74.1vh] bg-black">
-        <div className="h-[79vh]">
+        <div className="">
           <div className=" absolute bg-black opacity-40">
             <Image
               src="/assets/imgs/vote.png"
