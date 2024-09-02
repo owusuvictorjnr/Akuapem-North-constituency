@@ -6,8 +6,8 @@ import { Input } from "@/components/ui/input";
 const Donation = () => {
   return (
     <>
-      <div className="min-h-[95vh] lg:h-[74.1vh] bg-black">
-        <div className="">
+      <div className="bg-black">
+        <div className="h-[41vh]">
           <div className=" absolute bg-black opacity-40">
             <Image
               src="/assets/imgs/vote.png"
