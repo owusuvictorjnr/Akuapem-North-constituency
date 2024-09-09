@@ -148,7 +148,7 @@ const AboutPage = () => {
               {/* Mission & Vision statements */}
               <div className="space-y-5">
                 <h1 className=" text-red-500 capitalize font-semibold text-2xl ">
-                  about regional chairman
+                  about constituency chairman
                 </h1>
                 <p className="container mx-auto md:px-10 lg:px-20">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
