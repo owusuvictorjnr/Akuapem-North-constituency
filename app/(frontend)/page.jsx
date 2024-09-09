@@ -1,3 +1,4 @@
+import PromoCountdown from "@/components/Countdown/Countdown";
 import Donation from "@/components/Donation/Donation";
 import Hero from "@/components/Hero/Hero";
 import Subscribe from "@/components/Subscribe/Subscribe";
@@ -29,6 +30,10 @@ export default function Home() {
 
         <section>
           <Subscribe />
+        </section>
+
+        <section>
+          <PromoCountdown />
         </section>
       </section>
     </main>
