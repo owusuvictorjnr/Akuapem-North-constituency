@@ -18,7 +18,7 @@ import { MdPhone } from "react-icons/md";
 export default function Header() {
   return (
     <>
-      <div className="h-10 w-full bg-black/30">
+      {/* <div className="h-10 w-full bg-black/30">
         <div className="flex justify-between items-center pt-3 px-10">
           <div className="flex items-center space-x-10 lg:px-32">
             <Link href="" className="hover:text-red-500">
@@ -45,7 +45,7 @@ export default function Header() {
             <MdEmail color="white" />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Main bar */}
       <div className="flex w-full flex-col">
         <header className="sticky top-0 bg-gradient-to-r from-red-400 via-white to-blue-500 flex justify-between lg:justify-center gap-10 h-16 items-center border-b px-4 md:px-">
