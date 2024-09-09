@@ -28,7 +28,7 @@ const ImageListData = {
       aosDelay: "800",
       name: "Omane Mensa-Bonsu",
       aosData: "zoom-in", // Or any other desired animation
-      aspiring: "regional chairman",
+      aspiring: "constituency chairman",
     },
   ],
 };
