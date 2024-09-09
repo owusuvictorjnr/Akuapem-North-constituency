@@ -22,6 +22,14 @@ const ImageListData = {
       aosData: "zoom-in", // Or any other desired animation
       aspiring: "Aspiring MP of Akuapem North",
     },
+
+    {
+      image: "/assets/imgs/reg-1.jpg",
+      aosDelay: "800",
+      name: "Omane Mensa-Bonsu",
+      aosData: "zoom-in", // Or any other desired animation
+      aspiring: "regional chairman",
+    },
   ],
 };
 
@@ -86,7 +94,7 @@ const Hero = ({ deviceType }) => {
                     {item.name}
                   </h1>
 
-                  <p data-aos="slide-right" className="">
+                  <p data-aos="slide-right" className="capitalize">
                     {item.aspiring}
                   </p>
 
