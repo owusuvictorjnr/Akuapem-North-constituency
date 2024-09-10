@@ -3,34 +3,40 @@
 import React, { useState, useEffect } from "react";
 
 const PromoCountdown = () => {
-  // Set the target date to December 7, 2024 (Ghana Election Day)
   const targetDate = new Date("2024-12-07T00:00:00");
 
-  const calculateTimeLeft = () => {
-    const difference = targetDate - new Date();
-    let timeLeft = {};
-
-    if (difference > 0) {
-      timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-      };
-    }
-
-    return timeLeft;
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
+  const [timeLeft, setTimeLeft] = useState({});
+  const [mounted, setMounted] = useState(false); // Add this state
+  
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setMounted(true); // Set the component as mounted on client
+  
+    const calculateTimeLeft = () => {
+      const difference = targetDate - new Date();
+      let timeLeft = {};
+  
+      if (difference > 0) {
+        timeLeft = {
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+        };
+      }
+  
+      return timeLeft;
+    };
+  
+    const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
+  
+    return () => clearInterval(timer);
+  }, []);
 
-    return () => clearTimeout(timer);
-  });
+  if (!mounted) {
+    return null; // Render nothing on the server side to prevent mismatch
+  }
 
   const timerComponents = [];
 
