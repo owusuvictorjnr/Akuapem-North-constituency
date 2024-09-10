@@ -34,7 +34,7 @@ const AboutPage = () => {
               alt="logo"
               height={1000}
               width={1000}
-              className="w-full lg:w-1/2 h-[55vh] lg:h-[65vh]"
+              className="w-full lg:w-1/2 h-[50vh] lg:h-[65vh]"
             />
 
             {/* Mission & Vision statements */}
@@ -85,7 +85,7 @@ const AboutPage = () => {
                 alt="logo"
                 height={1000}
                 width={1000}
-                className="w-full lg:w-1/2 h-[55vh] lg:h-[65vh]"
+                className="w-full lg:w-1/2 h-[45vh] lg:h-[65vh]"
               />
 
               {/* Mission & Vision statements */}
@@ -142,7 +142,7 @@ const AboutPage = () => {
                 alt="logo"
                 height={1000}
                 width={1000}
-                className="w-full lg:w-1/2 h-[55vh] lg:h-[65vh] rounded-md"
+                className="w-full lg:w-1/2 h-[50vh] lg:h-[65vh] rounded-md"
               />
 
               {/* Mission & Vision statements */}
