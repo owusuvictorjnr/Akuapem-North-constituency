@@ -14,6 +14,7 @@ import Image from "next/image";
 import { FaFacebookF, FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { MdPhone } from "react-icons/md";
+import Donation from "../Donation/Donation";
 
 export default function Header() {
   return (
@@ -68,7 +69,7 @@ export default function Header() {
                 </Link>
               </div>
 
-              <ul className="flex justify-center items-center space-x-10">
+              <ul className="flex justify-center items-center space-x-5">
                 <li className="">
                   <Link
                     href="/"
@@ -227,8 +228,16 @@ export default function Header() {
             </div>
           </Sheet>
           <div className="">
+            {/* Donation */}
+
+            <div className="flex justify-center items-center mt-5 font-bold px-10 mb-5">
+              <Button className="w-full bg-rose-500 uppercase ">
+                donate now
+              </Button>
+            </div>
+
             {/* User */}
-            <DropdownMenu>
+            {/* <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button
                   variant="secondary"
@@ -249,7 +258,7 @@ export default function Header() {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>Logout</DropdownMenuItem>
               </DropdownMenuContent>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </div>
         </header>
       </div>
